@@ -1,5 +1,5 @@
 html, body {
-  background-color: #0099cc;
+  background-color: #000;
   color: #fff;
 
   /* Allow mouse dragging. */
@@ -24,13 +24,13 @@ html, body {
   /*margin: auto;*/
   /* Hide the gap for font descenders. */
   display: block;
-  min-height: 80vh;
+  min-height: 70vh;
   min-width: 100vw;
   height: 200px;
   width: 400px;
   left: 50%;
   top: 50%;
-  margin-top: -40vh;
+  margin-top: -35vh;
   margin-left: -50vw;
   position: fixed;
   /* disable scaling interpolation */
