@@ -21,7 +21,8 @@ body {
   margin: auto;
   /* Hide the gap for font descenders. */
   display: block;
-
+  width: 100vw;
+  height: 100vh;
   /* disable scaling interpolation */
   image-rendering: optimizeSpeed;
   image-rendering: -moz-crisp-edges;
