@@ -21,7 +21,8 @@ html, body {
 }
 
 #screen canvas {
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
   /* Hide the gap for font descenders. */
   display: block;
   max-height: 80vh;
