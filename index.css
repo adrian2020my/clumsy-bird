@@ -28,7 +28,6 @@ html, body {
   height: 100vh;
   left: 0;
   top: 0;
-  position: absolute;
   /* disable scaling interpolation */
   image-rendering: optimizeSpeed;
   image-rendering: -moz-crisp-edges;
