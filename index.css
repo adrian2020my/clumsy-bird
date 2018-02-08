@@ -21,7 +21,7 @@ html, body {
 }
 
 #screen canvas {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   /* Hide the gap for font descenders. */
   display: block;
