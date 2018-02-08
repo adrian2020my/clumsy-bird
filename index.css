@@ -25,7 +25,7 @@ html, body {
   text-align: center;
   /* Hide the gap for font descenders. */
   display: block;
-  max-height: 80vh;
+  max-height: 100vh;
   min-width: 100vw;
   left: 0;
   top: 0;
