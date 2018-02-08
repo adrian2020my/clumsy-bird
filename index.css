@@ -24,8 +24,6 @@ html, body {
   margin: auto;
   /* Hide the gap for font descenders. */
   display: block;
-  width: 100vw;
-  height: 100vh;
   min-height: 100vh;
   min-width: 100vw;
   left: 0;
