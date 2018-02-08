@@ -24,14 +24,14 @@ html, body {
   /*margin: auto;*/
   /* Hide the gap for font descenders. */
   display: block;
-/*  min-height: 100vh;
-  min-width: 100vw;*/
+  min-height: 50vh;
+  min-width: 100vw;
   height: 200px;
   width: 400px;
   left: 50%;
   top: 50%;
-  margin-top: -100px;
-  margin-left: -200px;
+  margin-top: -25vh;
+  margin-left: -50vw;
   position: fixed;
   /* disable scaling interpolation */
   image-rendering: optimizeSpeed;
