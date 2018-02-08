@@ -1,4 +1,4 @@
-body {
+html, body {
   background-color: #0099cc;
   color: #fff;
 
@@ -15,6 +15,9 @@ body {
 
   /* Allow canvas to hit the edges of the browser viewport. */
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #screen canvas {
@@ -23,6 +26,9 @@ body {
   display: block;
   width: 100vw;
   height: 100vh;
+  left: 0;
+  top: 0;
+  position: absolute;
   /* disable scaling interpolation */
   image-rendering: optimizeSpeed;
   image-rendering: -moz-crisp-edges;
