@@ -3,6 +3,8 @@ Clumsy Bird
 
 A MelonJS made "Flappy Bird" clone.
 
+By Ellison Leão
+
 ![](http://i.imgur.com/Slbvt65.png)
 
 Play online at http://ellisonleao.github.io/clumsy-bird/
