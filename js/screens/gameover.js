@@ -16,7 +16,17 @@ game.GameOverScreen = me.ScreenObject.extend({
         if (game.data.steps > me.save.topSteps) {
             me.save.topSteps = game.data.steps;
             game.data.newHiScore = true;
+            // window.webkit.messageHandlers.score.postMessage(me.save.topSteps);
         }
+
+        // This code of lines and the above are commented out
+        // Because it doesnt effect the build of this game
+        // To actually change the codes look at build/clumsy-min.js
+        // And the Gruntfile.js to get further understanding of how the game is run
+
+        // if (game.data.steps > 5) {
+        //     window.open("win.html", "_self");
+        // }
         me.input.bindKey(me.input.KEY.ENTER, "enter", true);
         me.input.bindKey(me.input.KEY.SPACE, "enter", false)
         me.input.bindPointer(me.input.pointer.LEFT, me.input.KEY.ENTER);
